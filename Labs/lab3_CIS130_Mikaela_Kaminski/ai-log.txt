@@ -1,0 +1,22 @@
+For this lab, I am using Microsoft Copilot.
+
+Prompt used for the plan:
+I am making a beginner two-page website for CIS-130 on the topic of matcha tea. Make a simple plan for index.html and details.html. The main page (index.html) should be an introduction to what matcha is. The second page (details.html) should have a recipe for preparing matcha. Tell me what content should go on each page and provide a file/folder checklist. Do not write the HTML and CSS yet. 
+
+Prompt used for the Main HTML Page:
+Using this plan, generate only index.html. This includes an introduction page to matcha. It should include an image with alt text, an unordered list with the benefits of matcha, and a link to the details.html page. Use semantic HTML and beginner-friendly code. Do not include CSS inside the HTML. Do not use JavaScript.
+
+Adapted Prompt: 
+Using this plan, generate only index.html. This includes an introduction page to matcha. It should include an image linked to images/matcha.jpg with alt text, an unordered list with the benefits of matcha, and a link to the details.html page. Link an external CSS style sheet styles/main.css. Include a copyright footer at the end of the page. Use semantic HTML and beginner-friendly code. Do not include CSS inside the HTML. Do not use JavaScript.
+
+Reflection of prompt:
+The AI was not able to generate a list correctly or link to the css file. It was able to understand how to link to the second page and the topic of the second page. At first, it did not link the image correctly but was able to after adapting the initial prompt.
+
+Debugging prompt:
+The unordered list is formatted incorrectly. Fix it so the content is within the <ul> tag.
+
+Question for AI:
+Explain what the <nav> tag means.
+
+Prompt for second page:
+Generate only details.html. This page should include a recipe for a matcha drink using an ordered list of steps. It should link to styles/main.css. Include a relative link back to the homepage index.html. Keep the HTML beginner friendly. Do not include JavaScript of internal CSS.
